@@ -10,4 +10,6 @@ pipeline for Data Science projects
 - make models like decision tree / xgboost / logistic regression 
 - hyperparameter optimization 
 - evaluate the code 
+  - in case of classification make a confusion matrix, check accuracy / precision (less false positive) / recall 
+  - 
 - prediction 
