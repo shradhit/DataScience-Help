@@ -1,1 +1,20 @@
 PCA Visuilization - https://towardsdatascience.com/pca-using-python-scikit-learn-e653f8989e60
+PCA Visuilization / LDA Visualization - 
+
+`
+
+from sklearn.decomposition import PCA
+import numpy as np
+
+pca = PCA(n_components=2)
+x_transformed = pca.fit_transform(X_train)
+plt.figure(figsize=(9,7))
+lw = 2
+
+for i, target_name in zip([0, 1, 2, 3, 4, 5, 6, 7, 8, 9], np.unique(y_test)):
+    plt.scatter(x_transformed[y_train == i, 0], x_transformed[y_train == i, 1], alpha=.7, lw=lw,
+                label=target_name)
+plt.legend(loc = 'best', shadow = False, scatterpoints = 1)
+plt.title('Principal Component Analysis(64D to 2D)')
+plt.show()
+`
