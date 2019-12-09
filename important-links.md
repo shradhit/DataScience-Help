@@ -12,6 +12,4 @@ sns.heatmap(mat.T, xticklabels=np.unique(y_train),
             annot=True,fmt="d",square=True, yticklabels=np.unique(y_train), cmap="Blues")
 plt.xlabel('true label')
 plt.ylabel('predicted label');
-
-
 `
