@@ -1,4 +1,4 @@
-# HousingPricePrediction
+# DataScience - Help
 
 pipeline for Data Science projects
 
