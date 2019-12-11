@@ -1,5 +1,7 @@
 # DataScience - Help
 
+### df.hist(bins = 30, figsize=(20,15))
+
 pipeline for Data Science projects
 
 - check the shape info , describe, sample, check for missing values, graph the missing values, check for corellation 
