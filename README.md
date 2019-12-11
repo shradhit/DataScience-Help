@@ -1,6 +1,7 @@
 # DataScience - Help
 
 ### df.hist(bins = 30, figsize=(20,15))
+### housing["abc"].fillna(median, inplace = True)
 
 pipeline for Data Science projects
 
